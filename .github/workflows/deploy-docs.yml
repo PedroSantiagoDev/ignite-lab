@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  blui-and-deploy:
-    runs-on: ubunto-latest
+  build-and-deploy:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
